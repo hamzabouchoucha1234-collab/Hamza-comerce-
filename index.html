@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hamza Commerce | عطور</title>
+  <meta name="description" content="اختر عطرك من Hamza Commerce واطلبه مباشرة عبر واتساب.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #151B22;
+      --bg: #EFF1F3;
+      --muted: #55606B;
+      --line: #DCE0E4;
+      --wa: #14803F;
+    }
+    * { box-sizing: border-box; margin: 0; }
+    body {
+      font-family: "Readex Pro", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.7;
+    }
+    .wrap { max-width: 30rem; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+
+    header { padding: 1.75rem 0 1rem; }
+    h1 { font-size: 2.5rem; line-height: 1.1; font-weight: 700; letter-spacing: -0.01em; }
+    header p { margin-top: 0.75rem; color: var(--muted); font-size: 1.05rem; }
+
+    .perfume {
+      background: #fff;
+      border-radius: 14px;
+      overflow: hidden;
+      margin-top: 1.25rem;
+    }
+    .panel { padding: 2.25rem 1.25rem 1.5rem; background: var(--c); color: var(--t); }
+    .panel h2 {
+      font-size: 2.1rem;
+      line-height: 1.15;
+      font-weight: 600;
+      direction: ltr;
+      text-align: left;
+    }
+    .body { padding: 1rem 1.25rem 1.25rem; }
+
+    table { width: 100%; border-collapse: collapse; font-size: 0.98rem; }
+    th, td { padding: 0.55rem 0; text-align: right; border-bottom: 1px solid var(--line); }
+    th { font-weight: 400; color: var(--muted); font-size: 0.88rem; }
+    td { font-weight: 600; }
+    tbody th { color: var(--ink); font-weight: 600; font-size: 0.98rem; }
+
+    .order {
+      display: block;
+      margin-top: 1.1rem;
+      padding: 0.8rem 1rem;
+      background: var(--wa);
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 8px;
+    }
+    .order:focus-visible, .phone:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
+
+    .ultra { --c: #14304F; --t: #F3F6FA; }
+    .sculpture { --c: #3D4247; --t: #F1F2F2; }
+    .coco { --c: #E6D3AE; --t: #46291A; }
+
+    footer { margin-top: 2rem; text-align: center; color: var(--muted); }
+    .phone { color: var(--ink); font-weight: 600; direction: ltr; unicode-bidi: embed; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Hamza Commerce</h1>
+      <p>اختر عطرك واطلبه مباشرة عبر واتساب.</p>
+    </header>
+
+    <main>
+      <section class="perfume ultra">
+        <div class="panel"><h2>Ultra Male</h2></div>
+        <div class="body">
+          <table>
+            <thead>
+              <tr><th></th><th>عادي</th><th>جودة عالية</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">12 مل</th><td>25 ألف</td><td>50 ألف</td></tr>
+              <tr><th scope="row">25 مل</th><td>50 ألف</td><td>100 ألف</td></tr>
+            </tbody>
+          </table>
+          <a class="order" data-perfume="Ultra Male" href="https://wa.me/213697727371" target="_blank" rel="noopener">اطلب عبر واتساب</a>
+        </div>
+      </section>
+
+      <section class="perfume sculpture">
+        <div class="panel"><h2>Sculpture</h2></div>
+        <div class="body">
+          <table>
+            <thead>
+              <tr><th></th><th>عادي</th><th>جودة عالية</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">12 مل</th><td>25 ألف</td><td>50 ألف</td></tr>
+              <tr><th scope="row">25 مل</th><td>50 ألف</td><td>100 ألف</td></tr>
+            </tbody>
+          </table>
+          <a class="order" data-perfume="Sculpture" href="https://wa.me/213697727371" target="_blank" rel="noopener">اطلب عبر واتساب</a>
+        </div>
+      </section>
+
+      <section class="perfume coco">
+        <div class="panel"><h2>Coco Vanille</h2></div>
+        <div class="body">
+          <table>
+            <thead>
+              <tr><th></th><th>عادي</th><th>جودة عالية</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">12 مل</th><td>25 ألف</td><td>50 ألف</td></tr>
+              <tr><th scope="row">25 مل</th><td>50 ألف</td><td>100 ألف</td></tr>
+            </tbody>
+          </table>
+          <a class="order" data-perfume="Coco Vanille" href="https://wa.me/213697727371" target="_blank" rel="noopener">اطلب عبر واتساب</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>للطلب والاستفسار: <a class="phone" href="tel:0697727371">0697727371</a></p>
+    </footer>
+  </div>
+
+  <script>
+    document.querySelectorAll("[data-perfume]").forEach(function (a) {
+      var msg = "مرحبا، أريد طلب عطر " + a.dataset.perfume;
+      a.href = "https://wa.me/213697727371?text=" + encodeURIComponent(msg);
+    });
+  </script>
+</body>
+</html>
